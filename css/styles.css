@@ -74,6 +74,7 @@ ul, ol {
 
 .hero-button {
     cursor: pointer;
+    border: none;
     background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
@@ -81,6 +82,59 @@ ul, ol {
     letter-spacing: 0.04em;
     color: #fff;
 }
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+.team-section{
+    background-color: #F4F4FD;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.features-title,
+.team-title,
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.features-text,
+.team-text,
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-item{
+    background-color: #fff;
+}
+
+/*.team-item:hover,
+.team-item:focus {
+}*/
+
+.team-title,
+.team-text {
+    text-align: center;
+}
+
+/*.portfolio-item:hover,
+.portfolio-item:focus {
+}*/
 
 .page-footer {
     background-color: #2E2F42;
